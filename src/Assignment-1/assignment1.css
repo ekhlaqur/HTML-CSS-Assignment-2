@@ -1,7 +1,23 @@
 /* Our CSS file. */
 
 
-.container, .content {
-width: 100%;
-height: 100%;
-}
+#container {
+    width: 100%;
+    height:100%;
+    background-color: rgb(red, green, blue);
+    }
+    .row{
+        display: block;
+        width: 100%;
+        height: 50%;
+       
+    }
+    .col{
+        display: inline-block;
+        height: inherit;
+        width: 50%;
+        float: left;
+        
+       
+    }
+    
