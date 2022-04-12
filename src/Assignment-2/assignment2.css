@@ -1,7 +1,94 @@
 /* Our CSS file. */
 
 
-.container, .content {
+#container{
 width: 100%;
 height: 100%;
+border: 1px solid blue;
+
+}
+header{
+    width: 100%;
+    border: 1px solid blue;
+    background-color: lightblue;
+}
+header,img,form {
+    display: inline-block;
+}
+.logo {
+    padding-left: 20px;
+    padding-top: 5px;
+
+}
+form {
+    float: right;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+navbar,nav{
+    width: 95% ;
+    text-align: center;
+    margin: 5px;
+    border: 1px solid blue;
+}
+ ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.content-body{
+    width: 100%;
+    height: 100%;
+    border: 1px solid blue;
+    position:absolute ;
+}
+.left-sidebar,section,.right-sidebar{
+display: inline-block;
+float: left;
+width: 30%;
+text-align: center;
+}
+.left-sidebar,.right-sidebar{
+    width: 25%;
+}
+section{
+    width: 45%;
+}
+.post-image{
+    width: 150px;
+    height: 200px;
+    margin: 15px;
+}
+
+aside,ul,li {
+   margin-top: 20px;
+   margin-bottom: 20px;
+section{
+    height: 100%;
+    float: left;
+    width: 40%;
+    border: 1px solid red;
+
+}
+section div {
+    border: 1px solid red;
+    margin: 10px;
+    height: 45%;
+}
+footer{
+    display: block;
+    bottom: 0%;
+    position: absolute;
+    border: 1px solid blue;
+    margin: 20px;
+    margin-top: 40px;
 }
